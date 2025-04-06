@@ -1,0 +1,56 @@
+body{
+	background: ;
+	color: black;
+}
+b{color: blue;}
+i{color: red;}
+/*Настройка навигационного меню */
+#menu1, #menuDZ{
+	position: relative;
+	display: block;
+	width:100%;
+	height:auto;
+	z-index: 10;
+}
+#menu1 ul, #menuDZ ul{
+	position: relative;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	height:auto;
+	list-style: none;
+}
+#menu1 ul li, #menuDZ ul li{
+	position: relative;
+	display: block;
+	width:100%;
+	height:auto;
+	float: left;
+	background-color: #ffe0ed;
+	transition: 0.5s;
+}
+#menu1 ul li a, #menuDZ ul li a{
+	display: block;
+	padding: 9px 25px 0px 25px;
+	font-size: 14px;
+	line-height: 1.3em;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	height:36px;
+	box-sizing: border-box;
+	color: white;
+	
+}
+#menu1 ul li:hover, #menuDZ ul li:hover{
+	background-color: #ff7ab2;
+}	
+#menufooter{
+	display: flex;
+	flex: 33%
+}
+footer{
+	background:#ffe0ed;
+	}
+	
